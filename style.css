@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(218, 28%, 13%);
+    color: #fff;
+}
+
+li{
+    list-style: none;
+    margin-right: 56px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 77px;
+    margin-top: 71px;
+    margin-bottom: 76px;
+    margin-right: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    width: 50%;
+}
+
+.header-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-link:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.files{
+    min-width: 726;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 364px 0px 364px;
+    text-align: center;
+    margin-bottom: 165px;
+}
+
+.f-p-text{
+    margin: 45px 0;
+    padding: 0 60px;
+}
+
+.f-button{
+    background-color: hsl(198, 60%, 50%);
+    padding: 21px 91px;
+    border-radius: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+.Features{
+    min-width: 726;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 295px 0px 295px;
+    text-align: center;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 98px;
+    gap: 154px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 168px;
+    margin-bottom: 161px;
+}
+
+.cimg{
+    width: 83px;
+}
+
+.c-title{
+    margin-top: 31px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+
+.c-text{
+    font-size: 12px;
+}
+
+.access{
+    margin-top: 9px;
+}
+
+.Stay{
+    display: flex;
+    margin: 0 80px 140px 80px;
+}
+
+.stay-img{
+    margin-right: 54px;
+}
+
+.s-title{
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 128px;
+}
+.s-text{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.s-link{
+    width: 32%;
+    text-decoration: none;
+    border-bottom: 2px solid hsl(198, 60%, 50%);
+    color: hsl(198, 60%, 50%);
+    overflow: hidde
+}
+
+.Team{
+    background-image: url(/images/bg-quotes.png);
+    background-repeat: no-repeat;
+    margin-left: 131px;
+    margin-right: 138px;
+    margin-bottom: 195px;
+    padding-left: 10px;
+    padding-top: 36px;
+    display: flex;
+    gap: 37px;
+}
+
+.t-left{
+    border-radius: 10px;
+    background-color: hsl(219, 30%, 18%);
+    overflow: hidden;
+    padding-right: 55px;
+    padding-top: 34px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+.t-center{
+    border-radius: 10px;
+    background-color: hsl(219, 30%, 18%);
+    overflow: hidden;
+    padding-right: 55px;
+    padding-top: 34px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+.t-right{
+    border-radius: 10px;
+    background-color: hsl(219, 30%, 18%);
+    overflow: hidden;
+    padding-right: 55px;
+    padding-top: 34px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+}
+
+.t-text{
+    font-size: 12px;
+}
+
+.profile{
+    display: flex;
+    margin-top: 27px;
+}
+
+.pro-img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+}
+
+.pro-name{
+    font-size: 9px;
+}
+
+.pro-dis{
+    font-size: 7px;
+}
+
+
+.Sign-In{
+    margin-left:288px;
+    margin-right: 288px;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 53px;
+}
+
+.sign-title{
+    margin-bottom: 27px;
+    font-size: 28px;
+}
+.sign-text{
+    font-size: 15px;
+    padding:0 50px;
+    margin-bottom: 38px;
+}
+
+#email{
+    border-radius: 35px;
+    padding: 21px 328px 21px 40px;
+}
+
+#button{
+    border-radius: 35px;
+    padding: 17px 31px;
+    color: #fff;
+    background-color: hsl(198, 60%, 50%);
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+    padding-left: 120px;
+    margin-bottom: ;
+    height: 515px;
+}
+
+.footer-con{
+    display: flex;
+    margin-top: 35px;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    width: 366px;
+}
+.loc-img{
+    width: 18px;
+    height: 19px;
+    margin-right: 24px;
+}
+.loc-text{
+    padding-right: 100px;
+    font-size: 10px;
+}
+
+.phone{
+    display: flex;
+    margin-bottom: 23px;
+    margin-right: 141px;
+}
+
+.con-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 24px;
+}
+
+.con-text{
+    font-size: 13px;
+}
+
+.email{
+    display: flex;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
